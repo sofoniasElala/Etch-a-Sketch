@@ -1,4 +1,5 @@
 const container = document.querySelector('.container');
+const button = document.querySelector('#changeGrid');
 
 for(let s = 1; s <= 256; s++){
     const square = document.createElement('div');
@@ -9,3 +10,7 @@ for(let s = 1; s <= 256; s++){
     })
     container.appendChild(square);
 }
+
+button.addEventListener('click', () => {
+    const newGrid = prompt('Must be between 16 - 100', 16);
+})
