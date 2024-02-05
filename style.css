@@ -15,10 +15,9 @@
 
 .square {
     flex: 1 1 auto;
-    min-width: 0;
     border-style: thin;
     border-color: black;
-    border-radius: 8px;
+    border-radius: 6px;
     margin: auto;
 
 }
