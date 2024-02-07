@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100vh;
+    margin: 0;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -6,6 +14,7 @@
     width: 500px;
     height: 500px;
     margin: auto;
+    margin-top: 30px;
     background-color: black;
     border-style:dashed;
     border-color: rgba(46, 98, 240, 0.01);
@@ -37,4 +46,11 @@
     font-size: medium;
     color: white;
     background-color: black;
+}
+
+.footer {
+    text-align: center;
+    font-size: large;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
