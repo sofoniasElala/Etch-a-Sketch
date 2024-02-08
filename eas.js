@@ -1,5 +1,8 @@
 const container = document.querySelector('.container');
 const button = document.querySelector('#changeGrid');
+const date = document.querySelector('#date');
+let today = new Date();
+date.textContent = today.getFullYear();
 let currentGrid = 16;
 
 button.addEventListener('click', () => {
